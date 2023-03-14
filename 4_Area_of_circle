@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float r,area,circum;
+    printf("enter the value of radius");
+    scanf("%f",&r);
+    area=3.14*r*r;
+    printf("area of circl=%f",area);
+    circum=2*3.14*r;
+    printf("area of circumference=%f",circum);
+}
